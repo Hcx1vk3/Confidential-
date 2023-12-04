@@ -1,7 +1,7 @@
+var body = $response.body;
+var obj = JSON.parse(body);
 
-var objc = JSON.parse($response.body);
-
-    objc = {
+obj = {
   "status" : 0,
   "receipt" : {
     "app_item_id" : 101630733,
@@ -71,4 +71,5 @@ var objc = JSON.parse($response.body);
     }
   ]
 }
-$done({body : JSON.stringify(objc)});
+body = JSON.stringify(obj);
+$done({body});
