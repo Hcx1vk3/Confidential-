@@ -59,7 +59,6 @@
 - (BOOL)isDataProcessingRestricted { return YES; }
 - (BOOL)isSKAdNetworkReportEnabled { return NO; }
 - (BOOL)autoLogAppEventsEnabled { return NO; }
-- (BOOL)autoLogAppEventsEnabled { return NO; }
 
  
 %end
